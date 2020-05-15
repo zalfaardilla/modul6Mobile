@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.insert.InsertFragment">
+
+    <LinearLayout
+        android:layout_marginTop="42dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_horizontal_margin"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="35dp"
+            android:text="Tambah Data Mahasiswa"
+            android:textColor="#7C6112"
+            android:textSize="25dp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textFieldNIM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:hint="@string/nim">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:inputType="number"
+                android:id="@+id/edt_nim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textFieldNama"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/padding_margin_8dp"
+            android:hint="@string/nama">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edt_nama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textFieldFakultas"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/padding_margin_8dp"
+            android:hint="@string/fakultas">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edt_fakultas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textFieldJurusan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="@dimen/padding_margin_8dp"
+            android:hint="@string/jurusan">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edt_jurusan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:textColor="@android:color/white"
+            android:backgroundTint="#008B8B"
+            android:id="@+id/btn_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="22dp"
+            android:text="@string/submit" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Daftar Mahasiswa</string>
+    <string name="title_insert">Insert</string>
+    <string name="title_read">Read</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="nim">NIM</string>
+    <string name="nama">Nama</string>
+    <string name="fakultas">Fakultas</string>
+    <string name="jurusan">Jurusan</string>
+    <string name="submit">Submit</string>
+    <string name="updatedata">Update Data</string>
+    <string name="total">Total Mahasiswa</string>
+    <string name="teknik">Mahasiswa Teknik</string>
+    <string name="informatika">Mahasiswa Informatika</string>
+    <string name="lastUpdate">Last Update</string>
+    <string name="Data_Mahasiswa">data</string>
+    <string name="data_mahasiswa">Data Mahasiswa</string>
+</resources>
